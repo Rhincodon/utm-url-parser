@@ -1,0 +1,42 @@
+{
+    "name": "rhincodon/utm-url-parser",
+    "description": "UTM URL String Parser",
+    "keywords": [
+        "utm",
+        "url",
+        "string",
+        "parser"
+    ],
+    "homepage": "https://github.com/rhincodon/utm-url-parser",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rhinodontypicus",
+            "email": "rhinodontypicus@gmail.com",
+            "homepage": "http://laravelinfo.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.4.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.1"
+    },
+    "config": {
+        "bin-dir": "vendor/bin"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpspec run"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rhinodontypicus\\Parsers\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}

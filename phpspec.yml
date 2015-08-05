@@ -1,0 +1,5 @@
+suites:
+    test_suite:
+        namespace: Rhinodontypicus\Parsers
+        psr4_prefix: Rhinodontypicus\Parsers
+        src_path: src
